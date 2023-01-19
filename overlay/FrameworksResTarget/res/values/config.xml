@@ -102,4 +102,9 @@
         <item>0:2:15</item> <!-- ID0:Fingerprint:Strong -->
     </string-array>
 
+    <!-- Parallel space blocklist -->
+    <string-array name="config_parallelSpaceBlocklist">
+        <item>org.lineageos.settings.device</item>
+        <item>org.lineageos.device.DeviceSettings</item>
+    </string-array>
 </resources>
