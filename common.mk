@@ -474,4 +474,5 @@ PRODUCT_BOOT_JARS += \
 $(call inherit-product, vendor/oneplus/sm8350-common/sm8350-common-vendor.mk)
 
 # GApps
+TARGET_IS_GROUPER := true
 include vendor/gapps/arm64/arm64-vendor.mk
