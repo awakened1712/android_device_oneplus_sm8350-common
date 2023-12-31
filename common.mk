@@ -114,6 +114,7 @@ TARGET_ENABLE_BLUR := true
 
 # Camera
 PRODUCT_PACKAGES += \
+    android.frameworks.stats@1.0.vendor \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
     vendor.qti.hardware.camera.postproc@1.0.vendor
@@ -132,6 +133,7 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # Display
 PRODUCT_PACKAGES += \
+    android.hardware.graphics.common-V1-ndk.vendor \
     android.hardware.graphics.common-V1-ndk_platform.vendor \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
@@ -145,6 +147,7 @@ PRODUCT_PACKAGES += \
     libsdmcore \
     libsdmutils \
     libtinyxml \
+    libtinyxml2 \
     memtrack.default \
     vendor.display.config@1.0 \
     vendor.display.config@1.15.vendor \
